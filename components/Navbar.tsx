@@ -19,6 +19,10 @@ const NAV_LINKS = [
     title: "Contact Us",
     href: "/contact",
   },
+  {
+    title: "Jobs",
+    href: "/#jobs",
+  },
 ];
 
 const Navbar = () => {
