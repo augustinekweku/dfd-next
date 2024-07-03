@@ -42,8 +42,8 @@ const Navbar = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="logo mr-4">
-              <a
-                href="index.html"
+              <Link
+                href="/"
                 className="text-black d-flex align-items-center g-2"
               >
                 <img
@@ -52,7 +52,7 @@ const Navbar = () => {
                   alt=""
                   style={{ borderRadius: "6px" }}
                 />
-              </a>
+              </Link>
             </div>
             <div className="ml-4 col-12 col-sm-12 col-lg-12 site-navigation text-left">
               <ul className="js-clone-nav d-none d-lg-inline-block text-left site-menu">

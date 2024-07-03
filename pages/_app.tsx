@@ -11,21 +11,12 @@ import CustomScript from "@/components/CustomScript";
 import DefaultLayout from "@/components/DefaultLayout";
 
 export default function App({ Component, pageProps }: AppProps) {
-  //use dynamic import to load the aos script
-
-  const loadAOS = async () => {
-    const aos = await import("../public/js/aos.js");
-    aos.default.init();
-  };
-
-  loadAOS();
-
   return (
-    <body suppressHydrationWarning={true}>
+    <html suppressHydrationWarning={true}>
       <DefaultLayout>
-        <CustomScript />
         <Component {...pageProps} />
+        <CustomScript />
       </DefaultLayout>
-    </body>
+    </html>
   );
 }
