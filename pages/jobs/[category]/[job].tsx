@@ -12,7 +12,7 @@ const JobDetails = () => {
               className="overlay-bg"
               style={{
                 backgroundImage: "url('images/banner-6.jpeg')",
-                height: "500px",
+                height: "300px",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",

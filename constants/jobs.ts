@@ -3,7 +3,8 @@ export const JOBS = {
     title: "Internal Partitions",
     description:
       "We offer a wide range of internal partitioning systems to suit your requirements. From solid partitions to glazed partitions, we have the solution for you.",
-    image: "images/services/internal-partitions.jpeg",
+    image: "/images/services/internal-partitions.jpeg",
+    banner: "/images/services/banners/internal-partitions.jpeg",
     jobs: [
       {
         title: "Metal Stud Partitions",
@@ -29,7 +30,8 @@ export const JOBS = {
     title: "Finishes",
     description:
       "We offer a range of finishes to suit your requirements. From plastering to painting, we have the solution for you.",
-    image: "images/services/finishes.jpeg",
+    image: "/images/services/finishes.jpeg",
+    banner: "/images/services/banners/finishes_27.jpg",
     jobs: [
       {
         title: "Plastering",
@@ -55,7 +57,8 @@ export const JOBS = {
     title: "Rendering",
     description:
       "We offer a range of rendering services to suit your requirements. From traditional sand and cement render to modern acrylic render, we have the solution for you.",
-    image: "images/services/rendering.jpeg",
+    image: "/images/services/rendering.jpeg",
+    banner: "/images/services/banners/rendering-3.jpg",
     jobs: [
       {
         title: "Sand and Cement Render",
@@ -81,7 +84,8 @@ export const JOBS = {
     title: "Ceilings",
     description:
       "We offer a range of ceiling systems to suit your requirements. From suspended ceilings to acoustic ceilings, we have the solution for you.",
-    image: "images/services/ceilings.jpeg",
+    image: "/images/services/ceilings.jpeg",
+    banner: "/images/services/banners/ceilings.png",
     jobs: [
       {
         title: "Suspended Ceilings",

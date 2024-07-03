@@ -19,9 +19,11 @@ const JobCategory = () => {
             <div
               className="overlay-bg"
               style={{
-                backgroundImage: "url('images/banner-6.jpeg')",
-                height: "500px",
-                backgroundSize: "cover",
+                backgroundImage: `url(${
+                  JOBS[category as keyof typeof JOBS]?.banner
+                })`,
+                height: "400px",
+                backgroundSize: "100%",
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
               }}
