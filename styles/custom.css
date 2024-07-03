@@ -1,0 +1,126 @@
+.overlay-left{
+    border-image:  linear-gradient(
+        to right,
+        #2e2c2ccd,
+        #ff4b2b00
+    ) fill 1;
+}
+.overlay-bg{
+    border-image:   linear-gradient(
+        #2e2c2ccd,
+        #ff4b2b00
+    ) fill 1;
+}
+.slider-heading h1, .slider-heading p {
+    color: #fff;
+}
+
+p{
+    font-size: 16px;
+}
+.slider-sub-heading{
+    font-size: 18px;
+}
+
+.services  ul{
+        padding-inline-start: 20px !important;
+    
+}
+
+.projects img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.service-card{
+    border-top: 3px solid #f15558;
+border-radius: 7px;
+}
+
+.service-card img {
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+}
+
+.service-card-image-card{
+    text-align: center;
+}
+
+.navbar-icon{
+    font-size: larger !important;
+}
+
+@media screen and (max-width: 768px) {
+    .site-menu-toggle{
+        margin-right: 20px;
+    }
+}
+
+ul.job-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+ul.job-list > li.job-preview {
+	background: #fff;
+	border: 1px solid #d7e2e9;
+	-webkit-border-radius: 0.4rem;
+	-moz-border-radius: 0.4rem;
+	border-radius: 0.4rem;
+	padding: 1.5rem 2rem;
+	margin-bottom: 1rem;
+	float: left;
+	width: 100%;
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+
+ul.job-list > li.job-preview:hover {
+	cursor: pointer;
+	-webkit-box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+	-moz-box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+	box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+}
+
+.job-title {
+	margin-top: 0.6rem;
+}
+
+.company {
+	color: #96a4b1;
+}
+
+.job-preview .btn {
+	margin-top: 1.1rem;
+}
+
+.btn-apply {
+	text-transform: uppercase;
+	font-size: 0.875rem;
+	font-weight: 800;
+	letter-spacing: 1px;
+	background-color: transparent;
+	color:  #f15558db;
+	border: 2px solid #f15558db;
+	padding: 0.6rem 2rem;
+	-webkit-border-radius: 2rem;
+	-moz-border-radius: 2rem;
+	border-radius: 2rem;
+}
+
+.btn-apply:hover {
+	background-color: #f15558db;
+	color:  #fff;
+	border: 2px solid #f15558db;
+}
+
+@media (max-width: 575px) {
+	.job-preview .content {
+		width: 100%;
+	}
+}
