@@ -108,3 +108,19 @@ export const JOBS = {
     ],
   },
 };
+
+
+export const ALL_JOBS =  {
+  "Dryliners": {
+    title: "Dryliners",
+  },
+  "Tape & Jointers/Plasterers": {
+    title: " Tape & Jointers/Plasterers",
+  },
+  "Renderers": {
+
+  },
+  "Painters/Decorators" :{
+  }
+
+}
