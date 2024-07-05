@@ -531,7 +531,7 @@ export default function Home() {
                 detail meets the highest standards of quality and craftsmanship.
               </p>
 
-              <ul className="list-unstyled list-check primary behind-the-scenes-ul d-non">
+              <ul className="list-unstyled list-check primary behind-the-scenes-ul d-none">
                 <li>
                   <b>Initial Consultation and Planning:</b> We begin by
                   understanding your specific needs and project goals, ensuring
