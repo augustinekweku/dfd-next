@@ -509,9 +509,177 @@ export default function Home() {
       </div>
       {/* <!-- END OF PROJECTS --> */}
 
-      {/* <!-- FOOTER --> */}
+      {/* <!-- BEHIND-THE-SCENCES --> */}
+      <div
+        className="site-section bg-light behind-the-scences"
+        id="behind-the-scences"
+      >
+        <div className="container">
+          <div className="row align-items-center">
+            <div
+              className="col-lg-6  pl-lg-5"
+              data-aos="fade-up"
+              data-aos-delay="0"
+            >
+              <h2 className="mb-4 heading font-weight-bold">
+                Behind the Scenes: Our Craft in Action
+              </h2>
+              <p className="mb-4">
+                Take a glimpse behind the scenes of our drylining and finishing
+                services, where precision and expertise come to life. Our team
+                meticulously plans and executes each project, ensuring every
+                detail meets the highest standards of quality and craftsmanship.
+              </p>
 
-      {/* <!-- END OF  FOOTER --> */}
+              <ul className="list-unstyled list-check primary behind-the-scenes-ul d-non">
+                <li>
+                  <b>Initial Consultation and Planning:</b> We begin by
+                  understanding your specific needs and project goals, ensuring
+                  a tailored approach to every job.
+                </li>
+                <li>
+                  <b>Detailed Site Assessment:</b> Our team conducts thorough
+                  site evaluations to determine the best materials and
+                  techniques for optimal results.
+                </li>
+                <li>
+                  <b>Custom Design Solutions: </b> We provide bespoke design
+                  plans that align with your aesthetic and functional
+                  requirements.
+                </li>
+                <li>
+                  <b>Efficient Material Sourcing:</b> Utilizing high-quality
+                  materials, we ensure durability and excellence in every aspect
+                  of construction.
+                </li>
+                <li>
+                  <b>Skilled Installation and Execution:</b> Our experienced
+                  craftsmen meticulously install partitions, studs, and finishes
+                  with precision.
+                </li>
+                <li>
+                  <b>Quality Control and Final Inspection:</b> We conduct
+                  rigorous quality checks and a final walkthrough to guarantee
+                  the highest standards are met before project completion.
+                </li>
+              </ul>
+            </div>
+            <div className="col-lg-6 ">
+              <div className="row">
+                <div
+                  className="col-6 col-md-4 mb-4 col-lg-4"
+                  data-aos="fade-up"
+                  data-aos-delay="0"
+                >
+                  <a
+                    href="images/apartment.jpeg"
+                    data-fancybox="gal"
+                    data-caption="Western Circus W3"
+                    className="fancybox hover-float"
+                  >
+                    <img
+                      src="images/apartment.jpeg"
+                      alt="Image"
+                      className="img-fluid custom-rounded"
+                    />
+                  </a>
+                </div>
+                <div
+                  className="col-6 col-md-4 mb-4 col-lg-4"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                >
+                  <a
+                    href="images/projects/project-2.JPEG"
+                    data-fancybox="gal"
+                    data-caption="Hawkins Factory, Northampton"
+                    className="fancybox hover-float"
+                  >
+                    <img
+                      src="/images/projects/project-2.JPEG"
+                      alt="Image"
+                      className="img-fluid custom-rounded"
+                    />
+                  </a>
+                </div>
+                <div
+                  className="col-6 col-md-4 mb-4 col-lg-4"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                >
+                  <a
+                    href="images/banner-4.jpg"
+                    data-fancybox="gal"
+                    className="fancybox hover-float"
+                    data-caption="Ashgate View, Burwash"
+                  >
+                    <img
+                      src="images/banner-4.jpg"
+                      alt="Image"
+                      className="img-fluid custom-rounded"
+                    />
+                  </a>
+                </div>
+                <div
+                  className="col-6 col-md-4 mb-4 col-lg-4"
+                  data-aos="fade-up"
+                  data-aos-delay="0"
+                >
+                  <a
+                    href="images/banner-5.png"
+                    data-fancybox="gal"
+                    data-caption="Nestle Road, Hayes"
+                    className="fancybox hover-float"
+                  >
+                    <img
+                      src="images/banner-5.png"
+                      alt="Image"
+                      className="img-fluid custom-rounded"
+                    />
+                  </a>
+                </div>
+                <div
+                  className="col-6 col-md-4 mb-4 col-lg-4"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                >
+                  <a
+                    href="images/window.jpeg"
+                    data-fancybox="gal"
+                    data-caption="Milbank Lock, Manchester"
+                    className="fancybox hover-float"
+                  >
+                    <img
+                      src="images/window.jpeg"
+                      alt="Image"
+                      className="img-fluid custom-rounded"
+                    />
+                  </a>
+                </div>
+                <div
+                  className="col-6 col-md-4 mb-4 col-lg-4"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                >
+                  <a
+                    href="images/partition.JPEG"
+                    data-fancybox="gal"
+                    data-caption="Hawkins Factory, Northampton"
+                    className="fancybox hover-float"
+                  >
+                    <img
+                      src="images/partition.JPEG"
+                      alt="Image"
+                      className="img-fluid custom-rounded"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* <!-- END OF BEHIND-THE-SCENCES --> */}
     </>
   );
 }

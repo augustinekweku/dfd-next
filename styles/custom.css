@@ -23,7 +23,7 @@ p{
 }
 
 .services  ul{
-        padding-inline-start: 20px !important;
+        padding-inline-start: 0px !important;
     
 }
 
@@ -123,4 +123,8 @@ ul.job-list > li.job-preview:hover {
 	.job-preview .content {
 		width: 100%;
 	}
+}
+
+.behind-the-scenes-ul li{
+	padding-bottom: 15px;
 }
